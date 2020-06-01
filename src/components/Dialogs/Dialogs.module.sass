@@ -1,0 +1,23 @@
+.dialogs
+    display: grid
+    grid-template-areas: "d m"
+    height: 100%
+    width: 100%
+    padding: 10px
+    grid-template-rows: 60vh
+    grid-template-columns: 2fr 7fr
+
+.dialogsItem
+    grid-area: d
+    margin: 5px
+    border-right: 1px solid black
+    .userDialog
+        margin: 5px 0
+        padding: 5px 0
+        border-bottom: 1px solid rgba(0, 0,0 ,0.3 )
+.userDialog.active
+    color: gold
+
+.messages
+    grid-area: m
+    margin: 5px
